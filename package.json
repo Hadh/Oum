@@ -1,0 +1,30 @@
+{
+  "name": "market-backend-express-server",
+  "version": "1.0.1",
+  "description": "Esprit Market Backend server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "bluebird": "*",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "~4.15.5",
+    "jsonwebtoken": "^8.2.0",
+    "mongoose": "^5.0.9",
+    "mongoose-relationship": "^0.1.5",
+    "multer": "^1.3.0",
+    "nodemailer": "^4.6.3",
+    "nodemailer-express-handlebars": "^3.0.0",
+    "nodemon": "^1.17.2",
+    "passport": "*",
+    "passport-jwt": "*",
+    "randomstring": "^1.1.5",
+    "xoauth2": "^1.2.0"
+  },
+  "author": "Hadhemi Laouini",
+  "license": "ISC"
+}
